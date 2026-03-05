@@ -1,0 +1,1349 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s ease;
+    font-family: "Inter";
+    outline: none;
+    list-style: none;
+}
+
+.box1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 90%;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+.navbar .left, .navbar{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+i{color: #fff;}
+
+.navbar .center img{
+    display: none;
+}
+
+.a{
+    font-family: "Michroma";
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 20px;
+    font-weight: 500;
+}
+
+.h1{
+    width: 594px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.center1 button{
+    width: 150px;
+    height: 53px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.center1{
+    position: relative;
+    right: 21%;
+    top: 9%;
+}
+
+.center1 button:hover{
+    background-color: #9495982e;
+    transition: all 0.5s ease;
+    border: 2px solid #949598;
+}
+
+.bottom p{
+    position: relative;
+    top: 1090%;
+    font-size: 12px;
+    color: #afb0b3;
+}
+
+.navbar .left{
+    display: flex;
+    gap: 5px;
+}
+
+i{cursor: pointer;}
+
+
+/* !Section1 */
+
+
+.box{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box11{
+    width: 90%;
+    transition: all 4s ease;
+}
+.box2{
+    width: 100%;
+    height: 440vh;
+    background-color: #0e0e12;
+}
+
+.porshe-divs{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.ll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: relative;
+    top: 200px;
+}
+
+.porshe-divs .porshe-div{
+    width: 326px;
+    height: 244px;
+    background-color: rgb(141, 141, 141);
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.porshe-divs .porshe-div:nth-child(1){
+    background-image: url(../assets/porshe\ GT3\ \(1\).jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.porshe-divs .porshe-div:nth-child(1):hover, .porshe-divs .porshe-div:nth-child(2):hover,.porshe-divs .porshe-div:nth-child(3):hover{
+    transform: scale(1.01);
+    transition: all 0.5s ease;
+}
+
+.porshe-divs .porshe-div:nth-child(2){
+    background-image: url(../assets/Porshe\ Taycan.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.porshe-divs .porshe-div:nth-child(3){
+    background-image: url(../assets/Porshe\ night\ Editon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.divv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.porshe-p{
+    width: 77%;
+    color: #6b6d70;
+    font-size: 11px;
+}
+
+/* !Section2 */
+
+
+.box22{
+    width: 90%;
+    height: 2300px;
+    color: #fff;
+    margin-top: 140px;
+}
+
+.top h1{
+    font-size: 68px;
+    font-weight: 500;
+}
+
+.bottom-div:nth-child(1), .bottom-div:nth-child(2), .bottom-div:nth-child(3), .bottom-div:nth-child(4), .bottom-div:nth-child(5), .bottom-div:nth-child(6){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.xx:nth-child(1) .bottom-div:nth-child(1){
+    background-image: url(../assets/porshe1.webp);
+}
+
+.xx:nth-child(1) .bottom-div:nth-child(2){
+    background-image: url(../assets/porshe2.webp);
+}
+
+.xx:nth-child(2) .bottom-div:nth-child(1){
+    background-image: url(../assets/porshe3.webp);
+}
+
+.xx:nth-child(2) .bottom-div:nth-child(2){
+    background-image: url(../assets/porshe4.webp);
+}
+
+.xx:nth-child(3) .bottom-div:nth-child(1){
+    background-image: url(../assets/porshe5.webp);
+}
+
+.xx:nth-child(3) .bottom-div:nth-child(2){
+    background-image: url(../assets/porshe6.webp);
+}
+
+.xx{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.xx:nth-child(1){
+    margin-top: 70px;
+}
+
+.xx{
+  display: flex;
+  gap: 30px;  
+  background-color: #0e0e12;
+  overflow: hidden;
+}
+
+.bottom-div {
+  flex: 1;
+  background-color: #0e0e12;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); 
+  cursor: pointer;
+}
+
+.xx .bottom-div:hover {
+  flex: 2.3;
+}
+
+.xx:has(.bottom-div:hover) .bottom-div:not(:hover) {
+  flex: 2;
+}
+
+.bottom-div{
+    width: 670px;
+    height: 651px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.bottom-div .bb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.o p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.tt{
+    display: flex;
+    gap: 15px;
+}
+
+.tt button{
+    width: 60px;
+    height: 23px;
+    background-color: #d7d7da90;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 300;
+    position: relative;
+    top: 530px;
+    cursor: pointer;
+}
+
+
+/* !Section3 */
+
+
+.box33 .top{
+    color: #fff;
+}
+
+.box33 .top h1{
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.divlar{
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.box33 .bola-div{
+    width: 326px;
+    height: 326px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.bola-div:nth-child(1){
+    background-image: url(../assets/porshe7.webp);
+    background-size: cover;
+}
+
+.bola-div:nth-child(2){
+    background-image: url(../assets/porshe8.webp);
+    background-size: cover;
+}
+
+.bola-div:nth-child(3){
+    background-image: url(../assets/porshe9.webp);
+    background-size: cover;
+}
+
+.kk{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 120px;
+}
+
+.bola-div:nth-child(1) .kk, .bola-div:nth-child(3) .kk{
+    position: relative;
+    top: 135px;
+}
+
+
+/* !Footer */
+
+
+.footer{
+   width: 100%;
+   height: 140vh;
+   background-color: #000;
+   padding: 60px 60px;
+   color: #fff;
+}
+
+.topp, .oo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.topp i{
+    font-size: 30px;
+}
+
+.w{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "News Cycle";
+    margin-top: 30px;
+}
+
+.oo p{
+    font-weight: 300;
+}
+
+.oo a{
+    color: #fff;
+    font-weight: 300;
+    font-family: "News Cycle";
+    font-size: 18px;
+    letter-spacing: 1.01px;
+}
+
+.icon-div{
+    display: flex;
+    gap: 15px;
+}
+
+.icon:hover{
+    background-color: #c0c0c0;
+}
+
+.icon1{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon1:hover{
+    background-color: #c0c0c0;
+}
+
+.icon1 i{
+    color: #000;
+    font-size: 20px;
+}
+
+.footer .right, .footer .left{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .center .left p{
+    margin-bottom: 20px;
+}
+
+.footer .center{
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn11{
+    width: 300px;
+    height: 54px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn11:hover{
+    background-color: #c0c0c0;
+}
+
+.footer .center .right p:nth-child(2){
+    margin-bottom: 20px;
+}
+
+.footer .bottom{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+}   
+
+.footer .bottom ul li{
+    line-height: 35px;
+    font-family: 'News Cycle';
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer .bottom ul .df{
+    font-size: 27px;
+    font-weight: 600;
+    position: relative;
+    bottom: 15px;
+}
+
+.cc{
+    color: transparent;
+}
+
+.chiziq{
+    width: 100%;
+    height: 0.5px;
+    background-color: #404044;
+    margin-top: 100px;
+}
+
+.last-bottom p, .last-bottom a{
+    font-family: "News Cycle";
+    color: #fff;
+}
+
+.last-bottom{
+    margin-top: 40px;
+}
+
+.last-bottom p:nth-child(2){
+    margin-top: 20px;
+}
+
+.last-bottom p:nth-child(3){
+    margin-top: 20px;
+}
+
+.porsche{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .box1{
+        width: 1000px;
+        height: 700px;
+        overflow: hidden;
+    }
+
+    .footer1{
+        width: 1000px;
+    }
+
+    .box2{
+        height: 870vh;
+    }
+
+    .o p{
+        color: #fff;
+        line-height: 20px;
+        position: relative;
+        top: 8px;
+    }
+
+    .h1{
+        width: 850px;
+        font-size: 70px;
+        letter-spacing: 1.01;
+    }
+
+    .center1{
+        position: relative;
+        right: 0.5%;
+        top: 39%;
+    }
+
+    .ui{
+        position: relative;
+        top: 410px;
+    }
+
+    .porshe-divs{
+        width: 100%;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .porshe-divs .porshe-div{
+        width: 691px;
+        height: 440px;
+    }
+
+    .ll{
+        position: relative;
+        top: 390px;
+    }
+
+    .porshe-p{
+        width: 691px;
+        margin-top: 25px;
+        line-height: 25px;
+    }
+
+    .box22 .top h1{
+        width: 890px;
+        font-size: 53px;
+        position: relative;
+        left: 20px;
+    }
+
+    .xx{
+        width: 850px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 25px;
+    }
+
+    .box33{
+        margin-top: 120px;
+    }
+
+    .divlar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divlar .bola-div{
+        width: 691px;
+        height: 440px;
+    }
+
+    .kk{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 180px;
+    }
+
+    .bola-div{
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    .bola-div:nth-child(1) .kk, .bola-div:nth-child(3) .kk{
+        position: relative;
+        top: 180px;
+    }
+
+    .footer{
+        height: 169vh;
+    }
+
+    .footer .center{
+        gap: 25px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    
+    .box1{
+        width: 900px;
+        height: 700px;
+        overflow: hidden;
+    }
+
+    .bottom .ui{
+        width: 690px;
+        position: relative;
+        top: 365px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .h1{
+        font-size: 60px;
+    }
+
+    .center1{
+        position: relative;
+        left: 45px;
+    }
+
+    .footer1{
+        width: 900px;
+    }
+
+    .box2{
+        height: 680vh;
+    }
+
+    .bottom-div{
+        flex: 0.5;
+        height: 400px;
+        position: relative;
+    }
+    
+    .xx{
+        width: 760px;
+    }
+
+    .porshe-divs{
+        width: 800px;
+    }
+
+    .porshe-divs .porshe-div{
+        width: 570px;
+        height: 600px;
+    }
+
+    .porshe-p{
+        width: 570px;
+        font-size: 10px;
+    }
+
+    .box22 .top h1{
+        width: 760px;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .box22{
+        height: 1350px;
+    }
+
+    .box33 .top h1{
+        font-size: 35px;
+    }
+
+    .divlar .bola-div{
+        width: 570px;
+        height: 300px;
+    }
+
+    .divlar .bola-div .kk {
+        position: relative;
+        top: 120px;
+    }
+
+}
+
+
+@media screen and (max-width:800px) {
+ 
+    .box1{
+        width: 790px;
+        height: 700px;
+        overflow: hidden;
+    }
+
+    .footer1{
+        width: 790px;
+    }
+
+    .box2{
+        height: 690vh;
+    }
+
+    .h1{
+        width: 583px;
+    }
+    
+    .center1{
+        position: relative;
+        top: 210px;
+        left: -40px;
+    }
+
+    .bottom .ui{
+        position: relative;
+        top: 290px;
+    }
+
+    .porshe-divs .porshe-div{
+        width: 553px;
+        position: relative;
+        right: 45px;
+        background-size: cover;
+    }
+
+    .porshe-p{
+        width: 550px;
+        font-size: 11px;
+    }
+
+    .box22 .top{
+        display: flex;
+        align-items: start;
+    }
+
+    .box22 .top h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .xx{
+        position: relative;
+        right: 20px;
+    }
+
+    .box22 .bottom{
+        width: 727px;
+    }
+
+    .xx .bottom-div{
+        flex: 0.42;
+    }
+
+    .xx .bottom-div:hover {
+        flex: 0.47;
+    }
+
+    .xx:has(.bottom-div:hover) .bottom-div:not(:hover) {
+        flex: 0.37;
+    }
+
+    .bottom-div p{
+        font-size: 12px;
+    }
+
+    .bb{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bb .icon{
+        position: relative;
+        top: 8px;
+    }
+
+    .footer{
+        height: 171vh;
+        padding: 20px;
+    }
+
+    .footer .icon1 i{
+        font-size: 18px;
+    }
+
+    .divlar .bola-div{
+        width: 530px;
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+   
+    .box1{
+        width: 690px;
+        height: 740px;
+        overflow: hidden;
+    }
+
+    .footer1{
+        width: 690px;
+    }
+
+    .box2{
+        width: 690px;
+        height: 690vh;
+    }
+
+    .h1{
+        width: 483px;
+    }
+
+    .xx{
+        width: 660px;
+    }
+
+    .center1 button{
+        width: 567px;    
+    }
+
+    .center1{
+        position: relative;
+        left: 0px;
+    }
+
+    .bottom .ui{
+        width: 567px;
+        top: 230px;
+    }
+
+    .navbar .center a{
+        display: none;
+    }
+
+    .navbar .center img{
+        width: 33px;
+        height: 45px;
+        display: flex;
+        position: relative;
+        top: 5px;
+    }
+
+    .porshe-divs{
+        width: 707px;
+    }
+
+    .porshe-divs .porshe-div{
+        width: 567px;
+        height: 425px;
+    }
+
+    .porshe-divs .porshe-div .ll{
+        position: relative;
+        top: 380px;
+    }
+
+    .bola-div{
+        width: 567px;
+        height: 319px;
+    }
+
+    .footer .center{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer{
+        padding: 60px;
+        height: 209vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer .btn11{
+        width: 567px;
+    }
+
+    .footer .icon-div{
+        width: 567px;
+    }
+
+    .bottom ul{
+        display: grid;
+        grid-template-rows: auto ;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+    
+    .box1{
+        width: 600px;
+        height: 740px;
+        overflow: hidden;
+    }
+
+    .bottom{
+        width: 600px;
+    }
+
+    .footer1{
+        width: 600px;
+    }
+
+    .box2{
+        width: 600px;
+        height: 510vh;
+    }
+
+    .xx{
+        overflow: hidden;
+    }
+
+    .rr{
+        display: none;
+    }
+
+    .h1{
+        width: 483px;
+        font-size: 55px;
+    }
+
+    .xx{
+        width: 490px;
+    }
+
+    .center1 button{
+        width: 487px;    
+    }
+
+    .center1{
+        position: relative;
+        left: 0px;
+        top: 230px;
+    }
+
+    .bottom .ui{
+        width: 487px;
+        top: 250px;
+    }
+
+    .navbar .center a{
+        display: none;
+    }
+
+    .navbar .center img{
+        width: 33px;
+        height: 45px;
+        display: flex;
+        position: relative;
+        top: 5px;
+    }
+
+    .footer .btn11{
+        width: 487px;
+    }
+
+    .porshe-divs{
+        width: 600px;
+        height: 1100px;
+        margin-top: 70px;
+    }
+
+    .porshe-divs .porshe-div{
+        width: 488px;
+        height: 366px;
+    }
+
+    .porshe-divs .porshe-div .ll{
+        position: relative;
+        top: 295px;
+    }
+
+    .porshe-p{
+        width: 488px;
+    }
+
+    .box22 .top h1{
+        text-align: start;
+    }
+
+    .xx:nth-child(2), .xx:nth-child(3){
+        display: none;
+    }
+
+    .xx:nth-child(1) .bottom-div:nth-child(1){
+        width: 501px;
+        flex: 2;
+    }
+
+    .xx:nth-child(1) .bottom-div.xx:nth-child(2) .bb{
+        display: none;
+    }
+
+    .xx .bottom-div:hover {
+        flex: 0.5;
+    }
+
+    .xx:has(.bottom-div:hover) .bottom-div:not(:hover) {
+        flex: 2;
+    }
+
+    .tt{
+        position: relative;
+        bottom: 310px;
+    }
+
+    .o button{
+        width: 433px;
+        height: 53px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: none;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .bb i{
+        display: none;
+    }
+
+    .porshe-divs .porshe-div .bottom-div{
+        width: 567px;
+    }
+
+    .divlar .bola-div{
+        width: 488px;
+    }
+
+    .box33{
+        margin-top: 50px;
+    }
+
+    .bola-div:nth-child(3){
+        margin-bottom: 210px;
+    }
+
+    .footer .bottom{
+        display: none;
+    }
+
+    .footer .icon-div{
+        width: 488px;
+    }
+
+    .ui{
+        position: relative;
+        left: 60px;
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+ 
+    .box1{
+        width: 500px;
+        height: 740px;
+        overflow: hidden;
+    }
+
+    .bottom{
+        width: 500px;
+    }
+
+    .footer1{
+        width: 500px;
+    }
+
+    .box2{
+        width: 500px;
+        height: 510vh;
+        overflow: hidden;
+    }
+
+    .rr{
+        display: none;
+    }
+
+    .h1{
+        width: 483px;
+        font-size: 55px;
+    }
+
+    .center1 button{
+        width: 430px;    
+    }
+
+    .center1{
+        position: relative;
+        left: 20px;
+        top: 280px;
+    }
+
+    .bottom .ui{
+        width: 430px;
+        top: 310px;
+        position: relative;
+        left: 29px;
+    }
+
+    .navbar .center a{
+        display: none;
+    }
+
+
+    .footer .btn11{
+        width: 410px;
+    }
+
+    .porshe-divs .porshe-div{
+        width: 410px;
+        height: 307px;
+        position: relative;
+        right: 25px;
+    }
+
+    .porshe-divs{
+        width: 500px;
+        height: 1050px;
+    }
+
+    html{
+        width: 500px;
+        height: 110vh;
+        overflow: hidden;
+    }
+
+    .porshe-divs .porshe-div .ll{
+        position: relative;
+        top: 260px;
+    }
+
+    .porshe-p{
+        width: 410px;
+        margin-top: 0;
+        position: relative;
+        left: 5px;
+    }
+
+    .box22 .bottom{
+        width: 400px;
+        position: relative;
+        right: 10px;
+    }
+
+    .bottom-div{
+        width: 433px;
+        height: 513px;
+    }
+
+    .xx{
+        width: 410px;
+    }
+
+    .xx .ohio{
+        width: 410px;
+    }
+
+    .ohio .o button{
+        width: 350px;
+    }
+
+    .divlar .bola-div{
+        width: 410px;
+        height: 230px;
+    }
+
+    .divlar .bola-div .kk{
+        position: relative;
+        top: 90px;
+    }
+
+    
+
+}
+
+
+
+@media screen and (max-width:400px) {
+    
+    html{
+        width: 400px;
+    }
+
+    .box1{
+        width: 400px;
+    }
+
+    .h1{
+        width: 305px;
+        font-size: 40px;
+        position: relative;
+        right: 18px;
+        bottom: 30px;
+    }
+
+    .center1 .sd{
+        width: 343px;
+        height: 55px;
+        position: relative;
+        right: 18px;
+        bottom: 30px;
+    }
+
+    .bottom{
+        width: 380px;
+        height: 10px;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .bottom .ui{
+        width: 319px;
+        font-size: 11px;
+        position: relative;
+        right: 50px;
+    }
+
+    .navbar{
+        width: 329px;
+        
+    }
+
+    .navbar .left p{
+        display: none;
+    }
+
+    .center img{
+        width: 25px;
+        height: 35px;
+    }
+
+    .porshe-divs{
+        width: 409px;
+    }
+
+    .porshe-divs .porshe-div{
+        width: 329px;
+        height: 247px;
+    }
+
+    .porshe-p{
+        width: 329px;
+    }
+
+    .box22 .top h1{
+        width: 349px;
+    }
+
+    .xx{
+        width: 329px;
+    }
+
+    .xx .ohio{
+        width: 329px;
+        margin-top: 30px;
+    }
+
+    .ohio .o button{
+        width: 270px;
+    }
+
+    .divlar .bola-div{
+        width: 329px;
+        height: 185px;
+        padding: 20px;
+    }
+
+     .divlar .bola-div .kk{
+        width: 329px;
+        position: relative;
+        top: 70px;
+        font-size: 12px;
+    }
+
+    .w{
+        font-size: 16px;
+    }
+
+    .topp p, .topp a{
+        font-size: 15px;
+    }
+
+    .footer{
+        width: 400px;
+        height: 1500px;
+        padding: 30px;
+    }
+
+    .footer .center .left p{
+        font-size: 14px;
+    }
+
+    .footer .left .btn11{
+        width: 329px;
+    }
+
+    .footer .icon-div{
+        width: 329px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 15px;
+    }
+
+}

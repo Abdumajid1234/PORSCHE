@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.bg-video {
+  position: fixed;
+  width: 100vw;
+  height: 864px;
+  z-index: -18;
+  object-fit: cover;
+}
+
+@media screen and (max-width:1000px) {
+  .bg-video{
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .bg-video{
+    width: 790px;
+    height: 100vw;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .bg-video{
+    width: 690px;
+    height: 100vw;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .bg-video{
+    width: 600px;
+    height: 200vw;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .bg-video{
+    width: 500px;
+    height: 200vw;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .bg-video{
+    width: 400px;
+    height: 179vw;
+  }
+}
